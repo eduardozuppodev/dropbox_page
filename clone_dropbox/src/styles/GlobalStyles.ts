@@ -8,7 +8,7 @@ export default createGlobalStyle`
     }
 
     *, button, input {
-        font-family: Roboto, sans-serif;
+        font-family: Poppins, sans-serif;
     }
 
     :root {
