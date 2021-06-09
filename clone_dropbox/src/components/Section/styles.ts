@@ -11,6 +11,18 @@ export const Container = styled.div`
     --text-color: var(--color-tertiary);
     --logo-color: var(--color-secondary);
   }
+
+  &.beige {
+    --bg-color: var(--color-secondary);
+    --text-color: var(--color-quaternary);
+    --logo-color: var(--color-primary);
+  }
+
+  &.white {
+    --bg-color: var(--color-tertiary);
+    --text-color: var(--color-quaternary);
+    --logo-color: var(--color-blue);
+  }
 `;
 
 export const Content = styled.div``;
