@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Content } from './styles';
 
 interface Props {
     variant: 'blue' | 'beige' | 'white' | 'black';
@@ -9,8 +9,15 @@ interface Props {
 
 }
 
-const Section: React.FC<Props> = () => {
-    return <div />;
+const Section: React.FC<Props> = ({ variant, title, description}) => {
+    return (
+    <Container>
+        <Content>
+            <h2>{title}</h2>
+            <p>{description}</p>
+        </Content>
+    </Container>
+    );
 }
 
 export default Section;
