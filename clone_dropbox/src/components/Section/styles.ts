@@ -9,6 +9,7 @@ export const Container = styled.div`
   &.blue {
     --bg-color: var(--color-primary);
     --text-color: var(--color-tertiary);
+    --logo-color: var(--color-secondary);
   }
 `;
 
