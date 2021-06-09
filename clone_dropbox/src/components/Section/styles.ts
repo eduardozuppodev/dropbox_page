@@ -23,6 +23,21 @@ export const Container = styled.div`
     --text-color: var(--color-quaternary);
     --logo-color: var(--color-blue);
   }
+
+  &.black {
+    --bg-color: var(--color-quaternary);
+    --text-color: var(--color-tertiary);
+    --logo-color: var(--color-blue);
+  }
+
+  &:first-child {
+    --padding-top: 130px;
+    --heading-font-size: 51px;
+
+    @media (min-width: 1024px) {
+      --content-width: 50%;
+    }
+  }
 `;
 
 export const Content = styled.div``;
