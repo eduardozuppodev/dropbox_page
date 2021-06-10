@@ -3,7 +3,6 @@ UI Clone - Dropbox Homepage
 </h1>
 
 <p align="center">Responsive Dropbox Homepage UI clone for study purposes.</p>
-<p align="center">Deployed <a href="https://rocketseat-clone-dropbox-menu.netlify.app/">here</a>.</p>
 
 <hr>
 
